@@ -23,6 +23,6 @@ public class EnviarEmailTest implements EnvioEmail {
 				return true;
 			}
 		}
-		throw new RuntimeException("El email no existe...");
+		return false;
 	}
 }
